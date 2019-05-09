@@ -1,0 +1,329 @@
+/* Background */
+body
+{
+ background-color: #fff;
+ padding-top: 54px;
+ padding-bottom: 54px;
+ font-family: 'Kanit', sans-serif;
+}
+
+@page { margin: 0; }
+
+@media (min-width: 992px) {
+ body {
+  padding-top: 56px;
+  padding-bottom: 56px;
+ }
+}
+
+
+/* Navigation */
+#navber-index
+{
+ background-color: #f16e22;
+}
+#navber-footer
+{
+ position: absolute;
+ width: 100%;
+ left: 0;
+ background-color: #f16e22;
+ margin-top: 30px;
+}
+#navber-mng
+{
+ position: fixed;
+ bottom: 0;
+ left: 0;
+ width: 100%;
+ background-color: #f16e22;
+}
+#navber-slide
+{
+ color: #fff;
+ font-size:24px;
+ cursor:pointer;
+}
+#navbar-text
+{
+ color: #fff;
+}
+#navbarDropdownFacility
+{
+ color: #fff;
+}
+#navbarDropdownNetwork
+{
+ color: #fff;
+}
+#navbarDropdownLogin
+{
+ padding: 15px;
+ min-width: 250px;
+}
+#navbarDropdownLogin
+{
+ padding: 15px;
+ min-width: 250px;
+}
+
+.sidenav {
+ height: 100%;
+ width: 0;
+ position: fixed;
+ z-index: 1;
+ top: 0;
+ left: 0;
+ background-color: #f16e22;
+ overflow-x: hidden;
+ transition: 0.5s;
+ padding-top: 10px;
+}
+.sidenav a {
+ padding: 8px 8px 8px 32px;
+ text-decoration: none;
+ font-size: 18px;
+ color: #fff;
+ display: block;
+ transition: 0.3s;
+}
+.sidenav a:hover {
+ color: #f1f1f1;
+}
+#bg-menu{
+ color: #000;
+}
+.sidenav .closebtn {
+ position: absolute;
+ top: 0;
+ right: 25px;
+ font-size: 36px;
+ margin-left: 50px;
+}
+#icon-exit
+{
+ font-size: 45px;
+}
+#menu-mng
+{
+ margin-top: 20px;
+}
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
+
+/* Carousel Item */
+.carousel-item {
+ height: 65vh;
+ min-height: 300px;
+ background: no-repeat center center scroll;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+
+.portfolio-item {
+ margin-bottom: 30px;
+}
+
+/* Table */
+.tb-scroll
+{
+ margin-bottom: 20px;
+ width: 100%;
+ height: 650px;
+ overflow: scroll;
+}
+#tb-export
+{
+ text-align: center;
+ border-color: #000;
+ border-style: solid;
+ border-width: 1px;
+}
+.tr-daily
+{
+ margin-bottom: 50px;
+}
+/* Form */
+.input-hd
+{
+  width: 130px;
+}
+.input-hd-2
+{
+  width: 150px;
+}
+.input-hr
+{
+  width: 50px;
+}
+
+.f-input-local
+{
+ margin: 10px auto auto;
+ margin-bottom: 30px;
+ width: 50%;
+ border: 0px solid black;
+ padding: 10px;
+}
+.f-input-mng
+{
+ margin: 10px auto auto;
+ margin-bottom: 30px;
+ width: 90%;
+ border: 0px solid black;
+ padding: 10px;
+}
+
+/* Text */
+.text-main
+{
+ margin-top: 20px;
+ margin-bottom: 10px;
+ font-size: 36px;
+ color: #4d4d4d;
+}
+
+.text-search
+{
+ font-size: 24px;
+ color: #4d4d4d;
+}
+
+#text-mng
+{
+ color: #4d4d4d;
+ font-size: 24px;
+}
+
+#subtext-mng
+{
+ margin-bottom: 30px;
+ color: #4d4d4d;
+ font-size: 18px;
+}
+
+/* Image */
+.uplode_img 
+{
+ height: 75px;
+ border: 1px solid #000;
+ margin: 10px 5px 0 0;
+}
+#img-notice
+{
+ width: 350px;
+ height: 250px;
+} 
+
+/* Icon */
+#icon-index
+{
+ font-size: 36px;
+ color: #ff8c1a;
+}
+
+/* Button */
+#btn-link{
+	width: 100%;
+	white-space: normal;
+}
+/* Medai qeury */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) 
+{
+ /* For desktop: */
+ .col-1 {width: 8.33%;}
+ .col-2 {width: 16.66%;}
+ .col-3 {width: 25%;}
+ .col-4 {width: 33.33%;}
+ .col-5 {width: 41.66%;}
+ .col-6 {width: 50%;}
+ .col-7 {width: 58.33%;}
+ .col-8 {width: 66.66%;}
+ .col-9 {width: 75%;}
+ .col-10 {width: 83.33%;}
+ .col-11 {width: 91.66%;}
+ .col-12 {width: 100%;}
+ ul.header_nav li.right,
+ ul.header_nav li 
+ {
+  float: none;
+ }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+{
+ /* For desktop: */
+ .col-1 {width: 8.33%;}
+ .col-2 {width: 16.66%;}
+ .col-3 {width: 25%;}
+ .col-4 {width: 33.33%;}
+ .col-5 {width: 41.66%;}
+ .col-6 {width: 50%;}
+ .col-7 {width: 58.33%;}
+ .col-8 {width: 66.66%;}
+ .col-9 {width: 75%;}
+ .col-10 {width: 83.33%;}
+ .col-11 {width: 91.66%;}
+ .col-12 {width: 100%;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) 
+{
+ /* For desktop: */
+ .col-1 {width: 8.33%;}
+ .col-2 {width: 16.66%;}
+ .col-3 {width: 25%;}
+ .col-4 {width: 33.33%;}
+ .col-5 {width: 41.66%;}
+ .col-6 {width: 50%;}
+ .col-7 {width: 58.33%;}
+ .col-8 {width: 66.66%;}
+ .col-9 {width: 75%;}
+ .col-10 {width: 83.33%;}
+ .col-11 {width: 91.66%;}
+ .col-12 {width: 100%;}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) 
+{
+ /* For desktop: */
+ .col-1 {width: 8.33%;}
+ .col-2 {width: 16.66%;}
+ .col-3 {width: 25%;}
+ .col-4 {width: 33.33%;}
+ .col-5 {width: 41.66%;}
+ .col-6 {width: 50%;}
+ .col-7 {width: 58.33%;}
+ .col-8 {width: 66.66%;}
+ .col-9 {width: 75%;}
+ .col-10 {width: 83.33%;}
+ .col-11 {width: 91.66%;}
+ .col-12 {width: 100%;}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) 
+{
+ /* For desktop: */
+ .col-1 {width: 8.33%;}
+ .col-2 {width: 16.66%;}
+ .col-3 {width: 25%;}
+ .col-4 {width: 33.33%;}
+ .col-5 {width: 41.66%;}
+ .col-6 {width: 50%;}
+ .col-7 {width: 58.33%;}
+ .col-8 {width: 66.66%;}
+ .col-9 {width: 75%;}
+ .col-10 {width: 83.33%;}
+ .col-11 {width: 91.66%;}
+ .col-12 {width: 100%;}
+} 
+ 
